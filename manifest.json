@@ -1,0 +1,18 @@
+{
+    "manifest_version":2,
+    "name":"TimeZone",
+    "version":"1.0",
+    "description":"A simple extension that shows you the current time and timezone on your device!",
+    "icons":{
+        "128":"clock.png"
+    },
+    "browser_action":{
+        "default_popup":"popup.html",
+        "default_icon":"clock.png",
+        "default_title":"TimeZone"
+    },
+    "permissions":["activeTab"],
+    "background":{
+        "scripts":["main.js"]
+    }  
+}
